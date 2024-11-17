@@ -10,12 +10,9 @@ jupyter:
   nbformat_minor: 0
 ---
 
-::: {.cell .markdown id="khADV6sxXtwJ"}
 # Exploratory Data Analysis (EDA)
-:::
 
-::: {.cell .markdown id="LcQ5Al0zLNV7"}
-## 1. Understanding Data Context {#1-understanding-data-context}
+## 1. Understanding Data Context
 
 According to the World Health Organization (WHO) stroke is the 2nd
 leading cause of death globally, responsible for approximately 11% of
@@ -35,18 +32,12 @@ part with practice).
 -   Similarly, there are suggestive questions throughout the report that
     might take deeper investigation and thought. Your answers would be
     useful for both your reports and future job interviews
-:::
 
-::: {.cell .code colab="{\"base_uri\":\"https://localhost:8080/\"}" id="9EkfqhGQUpFC" outputId="928a310f-ab71-42b9-b5a0-f80bed1de78d"}
+
 ``` python
 from google.colab import drive
 drive.mount("/content/drive")
 ```
-
-::: {.output .stream .stdout}
-    Mounted at /content/drive
-:::
-:::
 
 ::: {.cell .markdown id="flmr1unIX3wx"}
 We will upload file `healthcare-dataset-stroke-data.csv` to a directory
