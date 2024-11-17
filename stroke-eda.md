@@ -8,6 +8,8 @@ jupyter:
     name: python
   nbformat: 4
   nbformat_minor: 0
+hideMarkdown: true
+hideCode: true
 ---
 
 ::: {.cell .markdown id="khADV6sxXtwJ"}
